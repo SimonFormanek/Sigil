@@ -214,7 +214,6 @@ EmbeddedPython::EmbeddedPython()
 #endif // defined(BUNDLING_PYTHON)
 
     Py_Initialize();
-    PyEval_InitThreads();
     m_threadstate = PyEval_SaveThread();
     m_pyobjmetaid = qMetaTypeId<PyObjectPtr>();
 }
@@ -456,7 +455,7 @@ QVariant EmbeddedPython::PyObjectToQVariant(PyObject *po, bool ret_python_object
 
         if (kind == PyUnicode_1BYTE_KIND) {
             // latin 1 according to PEP 393
-            res = QVariant(QString::fromLatin1(reinterpret_cast<const char *>PyUnicode_1BYTE_DATA(po), -1));
+            res = QVariant(QString::fromLatin1(reinterpret_cast<const char*>(PyUnicode_1BYTE_DATA(po)), -1));
 
         } else if (kind == PyUnicode_2BYTE_KIND) {
             res = QVariant(QString::fromUtf16(PyUnicode_2BYTE_DATA(po), -1));
