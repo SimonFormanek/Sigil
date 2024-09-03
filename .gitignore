@@ -45,7 +45,6 @@ BuildLog.htm
 CMakeFiles
 CMakeScripts
 CMakeCache.txt
-*.cmake
 *.dir
 ALL_BUILD*
 
@@ -79,3 +78,4 @@ OpenCandy
 tags
 build
 
+/obj-x86_64-linux-gnu/

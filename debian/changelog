@@ -1,0 +1,6 @@
+zerosigil (0.1.0) UNRELEASED; urgency=low
+
+  * Initial release. Closes: #nnnn
+    <nnnn is the bug number of your ITP>
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Tue, 03 Sep 2024 22:24:42 +0200
