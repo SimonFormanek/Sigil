@@ -1,6 +1,13 @@
-zerosigil (0.1.0) UNRELEASED; urgency=low
+zerosigil (0.1.1) UNRELEASED; urgency=medium
 
+  * Gles dependencies removal
+
+ -- vitex <info@vitexsoftware.cz>  Wed, 04 Sep 2024 01:21:38 +0200
+
+zerosigil (0.1.0) unstable; urgency=low
+
+  [ Vítězslav Dvořák ]
   * Initial release. Closes: #nnnn
     <nnnn is the bug number of your ITP>
 
- -- Vítězslav Dvořák <info@vitexsoftware.cz>  Tue, 03 Sep 2024 22:24:42 +0200
+ -- vitex <info@vitexsoftware.cz>  Wed, 04 Sep 2024 01:21:00 +0200
