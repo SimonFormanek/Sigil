@@ -34,8 +34,8 @@
 #include "Misc/UpdateChecker.h"
 #include "sigil_constants.h"
 
-static const QString DOWNLOAD_PAGE_LOCATION  = "http://sigil-ebook.com/get";
-static const QString UPDATE_XML_LOCATION     = "https://raw.githubusercontent.com/Sigil-Ebook/Sigil/master/version.xml";
+static const QString DOWNLOAD_PAGE_LOCATION  = "http://repo.vitexsoftware.cz/pool/main/z/zerosigil/";
+static const QString UPDATE_XML_LOCATION     = "https://raw.githubusercontent.com/Vitexus/ZeroSigil/0914forever/version.xml";
 static const QString LAST_ONLINE_VERSION_KEY = "last_online_version";
 static const QString LAST_CHECK_TIME_KEY     = "last_check_time";
 static const QString SETTINGS_GROUP          = "updatechecker";
