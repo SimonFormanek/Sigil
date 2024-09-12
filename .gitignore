@@ -78,3 +78,10 @@ OpenCandy
 tags
 build
 
+/obj-x86_64-linux-gnu/
+/.vscode/
+debian/.debhelper/
+debian/debhelper-build-stamp
+debian/files
+debian/zerosigil.substvars
+debian/zerosigil/
